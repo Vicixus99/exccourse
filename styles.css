@@ -39,3 +39,63 @@ body {
 #mode{
   color: black;
 }
+
+/* Center the form and its elements */
+form.form-horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Style each input field container */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Style the icons and give spacing */
+.form-group label {
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: #5bc0de;
+}
+
+/* Make input fields uniform and nicely spaced */
+.form-group input {
+  width: 300px;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #5bc0de;
+  box-shadow: 0 0 5px rgba(91, 192, 222, 0.5);
+}
+
+/* Center the button */
+.col-xs-offset-2.col-xs-10 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the button */
+.btn-info {
+  background-color: #5bc0de;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+}
+
