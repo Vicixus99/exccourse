@@ -51,4 +51,5 @@ Scalability:
 
 Access:
 > The repository can be cloned and accessed via github pages (Potential Issue: Google Maps might not load due to API Key issues)
+Link: https://github.com/Vicixus99/exccourse.git
 > Currently, the application is hosted on github pages so it can be accessed via a browser.
