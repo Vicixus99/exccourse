@@ -1,4 +1,4 @@
-var myLatLng = { lat: 12.9684164383284, lng:79.15588483483134 };
+var myLatLng = { lat: 12.9684, lng: 79.1558 };
 var mapOptions = {
     center: myLatLng,
     zoom: 7,
